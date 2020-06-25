@@ -1,0 +1,17 @@
+Enter the name of the file
+dna2.fasta 
+
+Total number of records is 	 18 
+
+The longest DNA sequence is of length 	 4894 
+
+The number of DNA sequences in the FASTA file with length equal to longest length is 	 1 
+
+The shortest DNA sequence is of length 	  115 
+
+The number of DNA sequences in the FASTA file with length equal to shortest length is 	 1 
+
+The identifier of the longest sequence is 	 gi|142022655|gb|EQ086233.1|255 
+
+The identifier of the shortest sequence is 	 gi|142022655|gb|EQ086233.1|346 
+
