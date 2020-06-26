@@ -33,4 +33,34 @@ for k,v in seqs.items():
         print("The identifier of the longest sequence is \t",k,"\n")
     if len(v)==(int(short_seq)):
         print("The identifier of the shortest sequence is \t",k,"\n")
+ #to find repeats of a given length n
+while(1):
+    r=input("Enter the length n of the substring you want to perform the operations on or enter done if you don't want to do so \n")
+    if r=='done':
+        break
+    n=int(r)
+    def repeat_l(seq):
+        repeats=list()
+        for i in range(len(seq)):
+            repeats.append(seq[i:i+n])
+        return repeats
+    rep=list()
+    all_n_repeats=list()
+    for a in seqs.values():
+        rep=repeat_l(str(a))
+        for j in rep:
+            all_n_repeats.append(j)
+
+    count1=dict()
+    for l in all_n_repeats:
+        count1[l]=count1.get(l,0)+1
+    s=sorted(count1.values())[-1]
+    max_occur=list()
+    for l in count1.values():
+        max_occur.append(l)
+    print("The number of times different substrings of length ",n," occur maximum times is ",max_occur.count(s),"\n")
+    for k,v in count1.items():
+        if int(v)==int(s):
+            print("The maximum occuring DNA substring of length ",n,"and the number of times it occurs is \t ",(k,v),"\n")
+            break       
 f.close()
