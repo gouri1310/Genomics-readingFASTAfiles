@@ -16,16 +16,19 @@ The identifier of the longest sequence is 	 gi|142022655|gb|EQ086233.1|255
 The identifier of the shortest sequence is 	 gi|142022655|gb|EQ086233.1|346 
 
 Enter the length n of the substring you want to perform the operations on or enter done if you don't want to do so 
+6
 The number of times different substrings of length  6  occur maximum times is  1 
 
 The maximum occuring DNA substring of length  6 and the number of times it occurs is 	  ('GCGCGC', 153) 
 
 Enter the length n of the substring you want to perform the operations on or enter done if you don't want to do so 
+12
 The number of times different substrings of length  12  occur maximum times is  4 
 
 The maximum occuring DNA substring of length  12 and the number of times it occurs is 	  ('CATTCGCCATTC', 10) 
 
-Enter the length n of the substring you want to perform the operations on or enter done if you don't want to do so 
+Enter the length n of the substring you want to perform the operations on or enter done if you don't want to do so
+7
 The number of times different substrings of length  7  occur maximum times is  1 
 
 The maximum occuring DNA substring of length  7 and the number of times it occurs is 	  ('CGCGCCG', 63) 
