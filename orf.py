@@ -38,7 +38,7 @@ def orf1(seq):#reading frame 1
                 mark=stop_indices[j]+3
                 break
     return orf
-def orf2(seq):#reading frame 1
+def orf2(seq):#reading frame 2
     start_indices=list()
     stop_indices=list()
     for a in range(1,len(seq),3):
@@ -56,7 +56,7 @@ def orf2(seq):#reading frame 1
                 mark=stop_indices[j]+3
                 break
     return orf
-def orf3(seq):#reading frame 1
+def orf3(seq):#reading frame 3
     start_indices=list()
     stop_indices=list()
     for a in range(2,len(seq),3):
@@ -96,3 +96,4 @@ print("The length of the longest ORF in reading frame 2 is",max(l2),"\n")
 print("The length of the longest ORF in reading frame 3 is ",max(l3),"\n")
 m=[max(l1),max(l2),max(l3)]
 print("The length of the longest ORF in all sequences in any reading frame is",max(m),"\n")
+f.close()
